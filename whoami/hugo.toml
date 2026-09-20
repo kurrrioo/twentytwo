@@ -1,6 +1,6 @@
 baseURL = 'https://kurrrioo.github.io/'
 languageCode = 'de-de'
-title = 'My Portfolio'
+title = 'TT'
 theme = 'github.com/jpanther/congo/v2'
 
 [module]
