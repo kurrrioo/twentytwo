@@ -1,5 +1,8 @@
 #!/bin/bash
-git stash
+#git stash
+git add .
+git commit -m "Ran stupid script in vscode.dev code-space."
+git push origin master --force
 # 1. Build im Unterordner
 echo "Starte Hugo Build..."
 cd whoami
