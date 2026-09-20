@@ -1,0 +1,8 @@
+baseURL = 'https://kurrrioo.github.io/'
+languageCode = 'de-de'
+title = 'My Portfolio'
+theme = 'github.com/jpanther/congo/v2'
+
+[module]
+  [[module.imports]]
+    path = 'github.com/jpanther/congo/v2'
