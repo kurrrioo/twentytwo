@@ -1,8 +1,12 @@
 baseURL = 'https://kurrrioo.github.io/'
-languageCode = 'de-de'
+languageCode = 'de-DE'
 title = 'TT'
 theme = 'github.com/jpanther/congo/v2'
 
 [module]
   [[module.imports]]
     path = 'github.com/jpanther/congo/v2'
+
+[params.homepage]
+  layout = 'posts'
+  recentlimit = 5
