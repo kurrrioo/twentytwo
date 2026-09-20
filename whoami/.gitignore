@@ -1,0 +1,9 @@
+# Hugo Build-Output
+/public
+/resources/_gen
+
+# Hugo Server-Dateien
+hugo_stats.json
+
+# Cache
+.hugo_build.lock
