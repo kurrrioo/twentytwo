@@ -6,8 +6,8 @@ defaultContentLanguage = 'de'
 
 [languages]
   [languages.de]
-    languageCode = 'de-DE'
-    languageName = 'Deutsch'
+    locale = 'de-DE'
+    label = 'Deutsch'
     weight = 1
 
 title = 'gh-pages deploy-Skript'
