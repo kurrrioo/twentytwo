@@ -1,6 +1,16 @@
-baseURL = 'https://kurrrioo.github.io/'
-languageCode = 'de-DE'
-title = 'TT'
+
+baseURL = 'http://localhost:1313'
+
+locale = 'de-DE'
+defaultContentLanguage = 'de'
+
+[languages]
+  [languages.de]
+    languageCode = 'de-DE'
+    languageName = 'Deutsch'
+    weight = 1
+
+title = 'gh-pages deploy-Skript'
 theme = 'github.com/jpanther/congo/v2'
 
 [module]
@@ -8,5 +18,6 @@ theme = 'github.com/jpanther/congo/v2'
     path = 'github.com/jpanther/congo/v2'
 
 [params.homepage]
-  layout = 'posts'
-  recentlimit = 5
+  layout = 'page'
+  showRecent = true
+  recentLimit = 5
